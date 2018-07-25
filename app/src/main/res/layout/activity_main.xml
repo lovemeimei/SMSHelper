@@ -9,6 +9,7 @@
     tools:context="com.cmcc.smshelper.MainActivity">
 
     <Button
+        android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="读取配置文件"
@@ -25,6 +26,7 @@
         android:gravity="center"
         android:layout_marginTop="10dp"
         android:onClick="start"
+        app:layout_constraintTop_toBottomOf="@id/button1"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
     <Button

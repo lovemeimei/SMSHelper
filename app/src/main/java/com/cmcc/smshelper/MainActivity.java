@@ -156,6 +156,7 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case WHAT_READ_ERROR:
                     Toast.makeText(MainActivity.this, "导入配置文件出错了", Toast.LENGTH_SHORT).show();
+                    dialog.dismiss();
                     break;
                 case WHAT_TEST:
                     String name = msg.getData().getString("name");
